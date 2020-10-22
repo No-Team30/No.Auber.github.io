@@ -1,0 +1,62 @@
+:root{
+    --color-1: #E5E5E5;
+    --color-2: #000000;
+    --color-3: #FCA311;
+}
+html,
+body {
+    margin: 0px;
+    font-family: 'Kufam', cursive;
+    background-color: var(--color-2);
+    color: var(--color-1);
+}
+a {
+    color: var(--color-3);
+}
+
+#header {
+    height: 60px;
+}
+
+#header .header-title {
+    font-weight: bold;
+    background-image: url('8-bit-planets-transparent-png.png');
+    background-size: cover;
+}
+#header .header-link {
+    color: inherit;
+    padding: 0px 20px;
+    text-decoration: none;
+    float: left;
+    line-height: 60px;
+    font-size: 30px;
+    transition: background-color ease 0.3s;
+}
+#header .header-link:hover {
+    background-color: var(--color-3);
+    color: var(--color-2)
+}
+
+#content .block-link{
+    color: inherit;
+    padding: 8px 20px;
+    text-decoration: none;
+    line-height: 50px;
+    font-size: 26px;
+    transition: background-color ease 0.3s;
+}
+#content .block-link:hover{
+    background-color: var(--color-3);
+    color: var(--color-2)
+}
+
+#content {
+    margin: 0px 10px
+}
+
+#content .person{
+    margin:10px;
+}
+#content #person .name{
+    font-weight: bold;
+}
