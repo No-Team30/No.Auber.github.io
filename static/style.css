@@ -33,7 +33,7 @@ img {
     text-decoration: none;
     float: left;
     line-height: 60px;
-    font-size: 30px;
+    font-size: 28px;
     transition: background-color ease 0.3s;
 }
 #header .header-link:hover {
